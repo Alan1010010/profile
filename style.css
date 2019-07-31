@@ -44,7 +44,7 @@ h2 {
  padding-bottom: 40px;
  padding-top: 25px;
  margin-bottom: 25px;
- width: 50%;
+ width: 60%;
 }
 
 .card-hover:hover {
@@ -60,7 +60,7 @@ h2 {
  padding-bottom: 40px;
  padding-top: 25px;
  margin-bottom: 25px;
- width: 48%;
+ width: 55%;
 }
 
 .card-two:hover {
@@ -126,8 +126,17 @@ h2 {
 }
 
 .yeezy-why {
-  width: 44%;
+  width: 65%;
 }
+
+.matthew {
+  width: 50%;
+}
+
+/*.dunk {
+  height: 80%;
+  width: : 80%;
+}*/
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
