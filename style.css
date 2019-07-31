@@ -47,8 +47,9 @@ h2 {
  width: 50%;
 }
 
-.card-main:hover {
+.card-hover:hover {
   background-color: #2BE9AA;
+  box-shadow: 40px 40px 30px rgba(0,0,0,.3);
 }
 
 .card-two {
