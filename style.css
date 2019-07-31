@@ -1,9 +1,18 @@
 .profile_pic {
-  height: 12%;
-  width: 12%;
+  height: 140px;
+  width: 140px;
 }
+
+
 .img_cirlce {
   border-radius: 50%;
+}
+
+.yeezy {
+  height: 70px;
+  width: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 body {
@@ -27,7 +36,7 @@ h2 {
   width: 750px;
 }
 
-.card {
+.card-main {
  background-color: #FFFFFF;
  border-radius: 10px;
  box-shadow: 0 10px 30px rgba(0,0,0,.1);
@@ -38,8 +47,42 @@ h2 {
  width: 50%;
 }
 
+.card-main:hover {
+  background-color: #2BE9AA;
+}
+
+.card-two {
+ background-color: #FFFFFF;
+ border-radius: 10px;
+ box-shadow: 0 10px 30px rgba(0,0,0,.1);
+ margin: auto;
+ padding-bottom: 40px;
+ padding-top: 25px;
+ margin-bottom: 25px;
+ width: 48%;
+}
+
+.card-two:hover {
+  background-color: #2BE9AA;
+}
+
+.card-three {
+ background-color: #FFFFFF;
+ border-radius: 10px;
+ box-shadow: 0 10px 30px rgba(0,0,0,.1);
+ margin: auto;
+ padding-bottom: 40px;
+ padding-top: 25px;
+ margin-bottom: 25px;
+ width: 44%;
+}
+
+.card-three:hover {
+  background-color: #2BE9AA;
+}
+
 .btn-blue {
-  background-color: #6B72E1;
+  background-color: #2F0D4F;
   border-radius: 10px;
   padding: 10px 20px 10px 20px;
   color: white;
@@ -67,11 +110,22 @@ h2 {
 }
 
 .icon-social {
+  text-decoration: none;
   font-size: 32px;
+  color: #232F3E;
+
 }
 
-.icon-social:hover {
+.linked-in:hover {
   color: #2BE9AA;
+}
+
+.linked-in {
+  color: #232F3E;
+}
+
+.yeezy-why {
+  width: 44%;
 }
 
 @media (max-width: 960px) {
