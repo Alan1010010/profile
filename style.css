@@ -8,32 +8,32 @@
   border-radius: 50%;
 }
 
-.yeezy {
-  height: 70px;
-  width: 70px;
-  padding-left: 30px;
-  padding-right: 30px;
+.blurb-container {
+padding-left: 50px;
+padding-right: 50px;
 }
 
-body {
+p {
   color: #575F7D;
-  background-color: #F7F9FC;
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 50px;
+  font-family: 'Lora', serif;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
 
 h1 {
   font-size: 32px;
   line-height: 50px;
+  color: #575F7D;
   }
 
 h2 {
   font-size: 20px;
   line-height: 25px;
+  color: #575F7D;
 }
 
 .container{
-  width: 750px;
+  width: 80vw;
 }
 
 .card-main {
@@ -45,41 +45,7 @@ h2 {
  padding-top: 25px;
  margin-bottom: 25px;
  width: 60%;
-}
-
-.card-hover:hover {
-  background-color: #2BE9AA;
-  box-shadow: 40px 40px 30px rgba(0,0,0,.3);
-}
-
-.card-two {
- background-color: #FFFFFF;
- border-radius: 10px;
- box-shadow: 0 10px 30px rgba(0,0,0,.1);
- margin: auto;
- padding-bottom: 40px;
- padding-top: 25px;
- margin-bottom: 25px;
- width: 55%;
-}
-
-.card-two:hover {
-  background-color: #2BE9AA;
-}
-
-.card-three {
- background-color: #FFFFFF;
- border-radius: 10px;
- box-shadow: 0 10px 30px rgba(0,0,0,.1);
- margin: auto;
- padding-bottom: 40px;
- padding-top: 25px;
- margin-bottom: 25px;
- width: 44%;
-}
-
-.card-three:hover {
-  background-color: #2BE9AA;
+ text-align: center;
 }
 
 .btn-blue {
@@ -88,13 +54,22 @@ h2 {
   padding: 10px 20px 10px 20px;
   color: white;
   text-decoration: none;
+  margin: 20px;
 }
 
 .btn-blue:hover {
-  background-color: #2BE9AA;
+  background-color: hsl(228, 13%, 53%);
+  border-style: solid;
+   border-width: 2px;
+  border-color: hsl(228, 13%, 53%);
+
 }
 
 
+
+.connect-header {
+  padding-top: 30px;
+}
 
 .text-center {
   text-align: center;
@@ -113,30 +88,17 @@ h2 {
 .icon-social {
   text-decoration: none;
   font-size: 32px;
-  color: #232F3E;
+  color: #575F7D;
 
 }
 
 .linked-in:hover {
-  color: #2BE9AA;
+  color: hsl(228, 13%, 53%);
 }
 
 .linked-in {
-  color: #232F3E;
+  color: #575F7D;
 }
-
-.yeezy-why {
-  width: 65%;
-}
-
-.matthew {
-  width: 50%;
-}
-
-/*.dunk {
-  height: 80%;
-  width: : 80%;
-}*/
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
