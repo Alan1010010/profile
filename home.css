@@ -3,7 +3,6 @@
   width: 140px;
 }
 
-
 .img_cirlce {
   border-radius: 50%;
 }
@@ -32,6 +31,13 @@ h2 {
   color: #575F7D;
 }
 
+
+.content-wrap {
+  text-align: center;
+  height: 100vh;
+  background-image: url(../images/background-grad.png)
+  padding-top: 40px;
+}
 .container{
   width: 80vw;
 }
@@ -44,7 +50,6 @@ h2 {
  padding-bottom: 40px;
  padding-top: 25px;
  margin-bottom: 25px;
- margin-top: 40px;
  width: 60%;
  text-align: center;
 }
@@ -70,10 +75,6 @@ h2 {
 
 .connect-header {
   padding-top: 30px;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .list-inline > li {
